@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather App</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <h1>Live Weather</h1>
+    <div class="search-container">
+        <label for="city">Enter City Name:</label>
+        <input type="text" id="city" placeholder="e.g. London, New York">
+        <button onclick="getWeather()">Search</button>
+    </div>
+    <div id="weather-data" class="hidden">
+        <h2>Weather Today</h2>
+        <p id="city-name"></p>
+        <img id="weather-icon" src="" alt="Weather Icon">
+        <p id="weather-description"></p>
+        <p id="temperature"></p>
+        <p id="feels-like"></p>
+    </div>
+    <script src="task4.js"></script>
+</body>
+</html>

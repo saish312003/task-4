@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .search-container label {
+    margin-bottom: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
